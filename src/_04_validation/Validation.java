@@ -10,7 +10,12 @@ import javax.swing.JOptionPane;
 public class Validation {
 	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
+			Random randomMaker = new Random();
 			
+			int randomNumber = randomMaker.nextInt(5);
+			
+			System.out.println(randomNumber);
+	
 			
 			if (randomNumber == 0) {
 							JOptionPane.showMessageDialog(null, "I hate you");
@@ -21,7 +26,7 @@ public class Validation {
 						} else if (randomNumber == 4) {
 							JOptionPane.showMessageDialog(null,"............................." );
 						} else if (randomNumber == 5) {
-						JOptionPane.showMessageDialog(null,"no no you  suck at every thing even at life");	
+						JOptionPane.showMessageDialog(null,"no  you dont suck at every thing even at life");	
 						} else {
 							
 						}
@@ -33,12 +38,7 @@ public class Validation {
 		
 		
 		
-		Random randomMaker = new Random();
-		
-		int randomNumber = randomMaker.nextInt(5);
-		
-		System.out.println(randomNumber);
-
+		 
 		
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
@@ -46,7 +46,7 @@ public class Validation {
 		
 		// 3. Find someone to test out your program. They will like it :)
 	
-		// 2. Fix the code below so that it displays the correct image
+		
 		
 	
 	

@@ -15,11 +15,18 @@ import javax.swing.JOptionPane;
 
 public class AnimalFarm {
 
+	
+
 	AnimalFarm() {
 		/*
 		 * 1. Ask the user which animal they want, then play the sound of that animal.
 		 */
 		
+		for (int i = 0; i < 9; i++) {
+			//String no=JOptionPane.showInputDialog("what animol do you wont to lisn to");
+		
+		playWoof();	
+		}	
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
 
