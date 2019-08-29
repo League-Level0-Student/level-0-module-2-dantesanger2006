@@ -12,7 +12,7 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class StarShow {
 	
-	Robot robot = new Robot("batman");
+	Robot num=new Robot();
 	
 	void makeStars() {
 		
